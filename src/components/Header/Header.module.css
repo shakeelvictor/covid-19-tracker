@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logoType {
+  margin: 1.3rem 0 0 1rem !important;
+  font-weight: bolder !important;
+}
+
+.image {
+  width: 200px;
+  margin-top: 1.6rem;
+  align-self: center;
+}
+
+@media (min-width: 770px) {
+  header {
+    flex-direction: row;
+  }
+
+  h4 {
+    margin-top: 0 !important;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  .image {
+    align-self: flex-start;
+  }
+}

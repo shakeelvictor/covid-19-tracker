@@ -3,7 +3,9 @@
 This app was built using React, React's Context API, React Hooks, react-chart-js2, the React Countup library, Framer Motion, and Material UI.
 
 Two free APIs were used in gathering the data for both USA numbers and Global numbers
+
 USA metrics: (https://api.covid19api.com)
+
 Global metrics: (https://covid19.mathdro.id/api)
 
 ---
